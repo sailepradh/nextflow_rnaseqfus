@@ -1,0 +1,7 @@
+# Ignore the following files and folder from pushing in to repo
+
+work/
+temp/
+result/
+*.log
+data/

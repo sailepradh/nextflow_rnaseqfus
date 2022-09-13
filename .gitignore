@@ -1,0 +1,8 @@
+# Ignore the following files and folder from pushing in to repo
+
+work/
+temp/
+result/
+*.log
+data/
+rnaSeq_val_65sml_ChristinasTest_hopper.csv

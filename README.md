@@ -1,2 +1,2 @@
 # nextflow_rnaseqfus
-Fusion genes identification pipeline at center for molecular diagnostics
+Fusion genes identification pipeline at center for molecular diagnostics at Region Skane. Current version of pipeline uses fusion caller and Star fusion to identify fusion events in tumor samples for hematological and solid cancers. Active development is underway to remove artefacts with fusion events and additional new caller. New release of the pipeline are expected by the end of Septemeber. 
