@@ -6,3 +6,4 @@ result/
 *.log
 data/
 rnaSeq_val_65sml_ChristinasTest_hopper.csv
+nextflow.config
