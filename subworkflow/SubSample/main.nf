@@ -5,7 +5,7 @@ Import modules
 
 include {SUBSAMPLE} from '../../modules/subsample/main.nf'
 
-workflow subsample_reads_workflow {
+workflow subsample_workflow {
     take:
         readNumber
         sampleInfo
