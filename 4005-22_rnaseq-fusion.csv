@@ -1,0 +1,2 @@
+id,clarity_sample_id,clarity_pool_id,assay,platform,read1,read2
+4005-22,CMD655A275,122-216756,rnaseq-fusion,illumina,/fs2/seqdata/NovaSeq/220414_A00681_0645_BH2YG2DRX2/Data/Intensities/BaseCalls/CMD655A275_122-216756_S28_R1_001.fastq.gz,/fs2/seqdata/NovaSeq/220414_A00681_0645_BH2YG2DRX2/Data/Intensities/BaseCalls/CMD655A275_122-216756_S28_R2_001.fastq.gz

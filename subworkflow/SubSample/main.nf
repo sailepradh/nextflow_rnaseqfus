@@ -1,19 +1,17 @@
 /*
-Import modules
-
+Import modules according to the subworkflow of the RNA pipelines
 */
 
-include {SUBSAMPLE} from '../../modules/subsample/main.nf'
+include { SUBSAMPLE } from '../../modules/subsample/main.nf'
 
-workflow subsample_workflow {
+workflow subSampleWorkflow {
     take:
-        readNumber
-        sampleInfo
+        sampleReads
+        fileInfo
     main:
-        def input = readNumber.combine(sampleInfo)
-        SUBSAMPLE (input)
+        // def input = readNumber.combine(sampleInfo)
+        SUBSAMPLE (sampleReads, fileInfo)
 
     emit:
-        subsmaple = SUBSAMPLE.out
-
+        subSample = SUBSAMPLE.out
 }
